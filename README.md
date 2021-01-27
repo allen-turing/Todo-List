@@ -1,6 +1,10 @@
 # Getting Started with Create React App
-
+I created this app in the process to learn React and as a begginer there can be many optimization that can be performed so bear with me :P
+Used google firebase to store the data I used Cloud Firestore and for deployment perpose firebase.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Point to take care
+I tried installing firebase using npm but it created some problem so I have to use yarn so keep this in mind of you face something like that.
 
 ## Available Scripts
 
