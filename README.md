@@ -3,8 +3,8 @@ I created this app in the process to learn React and as a begginer there can be 
 Used google firebase to store the data I used Cloud Firestore and for deployment perpose firebase.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Point to take care
-I tried installing firebase using npm but it created some problem so I have to use yarn so keep this in mind of you face something like that.
+## Point to note
+while installing firebase `npm install firebase` did not worked for me so I have to install yarn and the `yarn add firebase`
 
 ## Available Scripts
 
@@ -32,6 +32,17 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Deploying app in firebase
+
+  #### to install firebase CLI which will be use to deploy the app
+    `npm install -g firebase-tools`    
+  #### Initialize your project
+    `firebase login`     sign in to google
+    `firebase init`      initiate your project
+    
+    chose no everytime otherewise index.html will be overwritten and app page will not open 
+  #### Deploy firebase Hosting
+    `firebase deploy`
 
 ### `npm run eject`
 
