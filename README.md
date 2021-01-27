@@ -4,6 +4,12 @@ Used google firebase to store the data I used Cloud Firestore and for deployment
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Point to note
+#### To run this webapp locally 
+  1. Clone this app through git clone
+  2. Open the directory of the app
+  3. Since the app do not contains node_modules, so download node pakage maager and then run `npm install` which will install the the dependency
+  4. Finally run `npm start` and app will get hosted on (http://localhost:3000)
+  
 while installing firebase `npm install firebase` did not worked for me so I have to install yarn and the `yarn add firebase`
 
 ## Available Scripts
